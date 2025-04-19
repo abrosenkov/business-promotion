@@ -2,127 +2,627 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/business-promotion/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
-    <script type="module" crossorigin src="/business-promotion/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/business-promotion/assets/styles-DvPDDfy5.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      rel="stylesheet"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Business promotion</title>
+    <link rel="stylesheet" crossorigin href="/business-promotion/assets/index-0dOTYtjo.css">
   </head>
+
   <body>
-    <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="/business-promotion/assets/sprite-E8vg0sBb.svg#logo"></use>
-        </svg>
+    <!-- header -->
+    <header class="header-section">
+  <div class="container header-wrapper">
+    <nav class="navigation">
+      <a href="./index.html" class="logo-link">
+        <img src="data:image/svg+xml,%3csvg%20width='40'%20height='36'%20viewBox='0%200%2040%2036'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M3.13307%2034.1139C1.40988%2034.1139%201.59211e-07%2032.7182%201.47613e-07%2031.0122L7.38884e-08%2020.1682L7.88631%2020.1682L7.88631%2020.1562L12.6263%2020.1562C13.8482%2020.1251%2014.8821%2019.0706%2014.8821%2017.8299C14.8821%2016.5582%2013.8168%2015.5036%2012.5323%2015.5036L6.26614%2015.5036L6.26614%2015.5055L4.21887e-08%2015.5055L2.10878e-08%2012.4018C9.48962e-09%2010.6959%201.40988%209.30012%203.13307%209.30012L12.5323%209.30012C14.9134%209.30012%2016.9499%2010.1376%2018.6104%2011.8125C20.3023%2013.4564%2021.1482%2015.4726%2021.1482%2017.8299C21.1482%2020.1562%2020.3336%2022.1723%2018.6731%2023.8162C17.0126%2025.4601%2015.0074%2026.3286%2012.6576%2026.3596L6.26614%2026.3596L6.26614%2031.0122C6.26614%2032.7182%204.85626%2034.1139%203.13307%2034.1139Z'%20fill='%2302BC6B'/%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M25.0975%205.7002C28.5589%209.0287%2030.3031%2013.1742%2030.3031%2017.8865C30.3031%2022.5197%2028.6319%2026.6613%2025.2239%2030.0002L20.3852%2025.4931C22.5047%2023.4166%2023.545%2020.9166%2023.545%2017.8865C23.545%2014.8333%2022.4734%2012.3372%2020.3031%2010.2502L25.0975%205.7002Z'%20fill='%2302897A'/%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M32.5055%20-3.14562e-08C37.4911%204.92801%2039.9999%2011.0384%2039.9999%2018.0514C39.9999%2024.9549%2037.5922%2031.0614%2032.6884%2036L28.0186%2031.4828C31.6715%2027.8041%2033.4614%2023.3422%2033.4614%2018.0514C33.4614%2012.7074%2031.6111%208.24939%2027.8787%204.56008L32.5055%20-3.14562e-08Z'%20fill='%23035B81'/%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M0%2026.3857L6.26614%2026.3857L6.26614%2031.0126C6.26614%2032.7186%204.85626%2034.1143%203.13307%2034.1143C1.40988%2034.1143%204.30547e-08%2032.7186%203.14565e-08%2031.0126L0%2026.3857Z'%20fill='%23028E37'/%3e%3c/svg%3e" width="40" height="36" alt="Logo icon" />
+        <p class="logo-text">Product</p>
       </a>
       <ul class="nav-list">
         <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
+          <a href="" class="nav-link current"> Product </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
+          <a href="" class="nav-link"> Pricing </a>
+        </li>
+        <li class="nav-item">
+          <a href="" class="nav-link">Customers</a>
+        </li>
+        <li class="nav-item">
+          <a href="" class="nav-link"> Resources </a>
         </li>
       </ul>
     </nav>
-  </div>
-</header>
-
-
-    <main>
-      <!-- Loads the specified .html file -->
-      <section class="vite-promo">
-  <div class="container">
-    <div class="vite-promo-thumb">
-      <a
-        class="vite-promo-link"
-        href="https://vitejs.dev/"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Link to Vite official website"
-        title="Vite.js  build tool"
-      >
-        <!-- Path to images as from index.html file -->
-        <img
-          class="pic"
-          src="/business-promotion/assets/vite-logo-9o_aqrTe.png"
-          alt="Vite logo"
-          width="640"
-          height="640"
-        />
-      </a>
-    </div>
-    <h1 class="main-title">
-      <span class="main-title-gradient">Vite</span>
-      Template by
-      <a
-        class="main-title-link"
-        href="https://github.com/goitacademy/vanilla-app-template"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT
-      </a>
-    </h1>
-  </div>
-</section>
-
-      <article class="badges">
-  <div class="container">
-    <ul class="badges-list">
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/vite-plugin-html-inject"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          HTML Inject
-        </a>
+    <ul class="sign-buttons-list">
+      <li class="sign-buttons-item">
+        <button class="sign-btn sign-in-btn">Sign In</button>
       </li>
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/vite-plugin-full-reload"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Full Reload
-        </a>
-      </li>
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/postcss-sort-media-queries"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Sort Media Queries
-        </a>
+      <li class="sign-buttons-item">
+        <button class="sign-btn sign-up-btn">Sign Up</button>
       </li>
     </ul>
   </div>
-</article>
+</header>
 
-    </main>
+    <!-- main -->
+    <main>
+      <!-- sections -->
+      <section class="main-section">
+  <div class="container hero-container">
+    <div class="hero-content">
+      <h1 class="hero-title">Work at the speed of thought</h1>
+      <p class="hero-descr">
+        Tools, tutorials, design and innovation experts, all in one place! The
+        most intuitive way to imagine your next user experience.
+      </p>
+      <div class="hero-buttons">
+        <button class="hero-btn">Get started</button>
+        <a class="hero-video-link" href="">
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAD7SURBVHgBpZSxkcIwEEV3107uqqAVOrgOrgRw5AEC7IBhTGQqADqACqAD6ACX4AR7CKTP4oABj/FY8EON9unra1dM87AnzENm72jKy46iNCcHiYi3J5YBCGv5+T16yeTfBcCSjNGwnjFxZMLZ5lNAJXW1hbUBjZLs3R6hNjrxn17xLIvx6p6Vs4MGYmSLYvkctJCLQFE9aDcHr8qsNX03B6/S/vGm3wAq+fSh9N4nwMTOADDlDMQI56mTg6rQYIlrmeLpGbsBQGuURYCGQWsFADgANtZWPrzb4zcfqAFZE7QVPgA6MPfJ61WFtYC6yNdp67N+KFqd1wPqohsUkXoo6arIJAAAAABJRU5ErkJggg=="
+            alt="Video-icon"
+            class="video-link-icon"
+          />
+          Watch the Video
+        </a>
+      </div>
+    </div>
+    <img
+      src="/business-promotion/assets/hero-img-BadHnxrT.png"
+      alt="Main image"
+      class="hero-section-img"
+    />
+  </div>
+</section>
 
-    <footer class="footer">
-  <div class="container">
-    <p class="footer-desc">
-      Made with ✨ by
-      <a
-        class="footer-link"
-        href="https://goit.global/ua/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT team
-      </a>
+
+      <section class="product-section">
+        <div class="container">
+          <h2 class="product-title">Product was Built Specifically for You</h2>
+          <ul class="product-list">
+            <li class="product-item">
+              <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADYAAAA+CAYAAABgFuiwAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAOYSURBVHgB7Zo/TBRBFMa/mSMRLfTsrPQoLKzEaCUmnBprsTQxAY21YAO5s+As5AAbSCwtuI5GjZUNyJFAYmOAysLCxYZg49rIEdl5vrd4lzv+3UGY3dv1fsXtzOzc3X773ryd2XkKRyE/lNaJxGUiSnOtUymVBCGJ40DBJYIDkMO/WzT4M4/Bl8s4JKrhnrmBpD51qp/F9CmoFILF4f/MeWZrHpkxp5EvNCRMj2eH+TBwbFY5Og5f8ZQZHHler+PBwvJDKa0T77jUiebCMca7eZD19H4nEmPPenkcLaH5RAkprfjaRjI9+3XY02IiikBTiAAG1IehfGFne2JXA98F0phGROCg0kN3bjiYWVipba9GxpS4X/hB4nAQXEPeleoxVzPGOFDMRU6UoJBU20GuQsUV9SiHdIUeRBR2vXPqzg1FMwvFf3WUw/ocl1KIMuKSpd8dyE24vismkEgj6qIEdkl98uSAFH1hHAWHERtUr/+JF9lO3YYlxAiZlWjd5s/QY4XWulMTVDdihiyndAhLEOsopS9rKEohbvAkQ0dyplEPCfuwxNt7D3DhdHj3zJqwuxcv4eP9x6GJsyZMSJ05G5o4q8KEsMRZFyaEIS4QYULQ4gITJgQpLlBhQlDiAhcmBCEuFGFCWVzyRDts0IaAmf/+Dc6vn5X6mfZ2uJslHDeBCxMefXgD21h3RbdUwq3p1/5R6D7fYc39qrEqrCxK3G/y82Kl/cm167CNNWHL62u+qJUfa379/dcvlXP917qsW82asKuFVxVRgpTFcoKItk2gwUOChlvasBIFd9Ime75BraKrw7xV+I2wvBpwETNIk8Ov33DoHfmmx9Aqv36jecQMSaPQxpjYWcyoraK/jaTHshKHU4gBvHfu0FC+Y/s5ZqiAmMAxIydHX5hpPzHhh/2II9birRY/Zmxb7GnOhUeTiDg8rgrlDfaarAE1ll1SzZmwUpfy2CrXa+aKZLx7UXRJkow5Y25Wt9UmsMwuunSra52fA5HKHiCP7iM7+qm6bVdmDmYXlul212pUxCmDh5TN78ok2nvZkhmdMqCmdktxPxHlZUam9jpfN61PaT3XbLueMr/148EBaX2NJWLmMznS6A1boG8lfiyZTD5Xr2/jqbNsPe6eVloNBy1QQjm7XcFsbkxI1k0j32lcWDXjWXnWdStCGjLHVEipY1qskr/wJb54tczlIjxvhV2uiBYtWrRo0eI/4i8uJkv2H2TKDgAAAABJRU5ErkJggg=="
+                alt="First click tests"
+                class="product-item-img"
+              />
+              <h3 class="product-item-title">First click tests</h3>
+              <p class="product-item-descr">
+                While most people enjoy casino gambling,
+              </p>
+            </li>
+            <li class="product-item">
+              <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADYAAAA+CAYAAABgFuiwAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAPOSURBVHgB7Zo/TBNRHMe/72iiiQa7qAsmR3RSDFUHdaLIoENpYHQwQOIO+IeVOriIot0daGLiCAFidDCWSV0EIzoh1OAicSgqiSbtPX+/u5b2+oe25F3pHf0kx/VeX8N97/d9v3t37yewC0ITMqi1oFNKBCEQgISfmv1QQ1IKJISkTSCeSmHhxZhYQo2Iajv2PZZ+Q2JYAoMkREd9YZERTWBhZlQkqvlBVcLCk3KcojMCdVHZLSxwavaWuFep447CKEp6Ko1pwXZrLBItGrp3ip5W7guK0kDawGIDimJ0PrfQQ9lXrkPJiLEost4UXABd+EGyZqyovbCBrwJ1noaLKCXOJozHFIcYe58kaiVJY+5c/pizjTES9QbuE8X4U9Lusm1hIUrptNPhUuiGHghPyMj2Mf/JWJCjpcPdJH9raI+PiqQZMRIVhPtFMf7WlDmR2LbiODyC1DDAe0E2DGQyoWeQBrq1dMq0oaegiXpAIzN2wWPQU0BQk9ITScOOQKdG0xEd3sPPWdGNM41K+DV4lLoIO3QA6GgDjrWibvjgICxo+Cpw6VSu7d0K8DQObPyCozgasZtBuyiGj4evwXEcE8a26zmTO17dyH0+22ZZ00kcFZaF7TfyDJj9kGs7fgSOUpfksfXP2q9lorb1F/ixCUdxNHkU8voLRe9rTqiTKBOWHU9/6KTfr5Tuw/bkbMjZkjf+fPEkcPig9T1bVpVoZcI4rTN8suWEsfjweUtU9BVF8DMdX7CSCfNpXZ2wus88WFQ9UCaMEwLDdms/SlE4UaJPXjS4D4vMz54qx54yK67+zFkqesP+3fJ6pk/evYwtyVuWjU21wpRFLPqydArnhMDZkFn+Djx/W9yHo31/FkoRvY/oUVMRbKvrly2b8dUvJ6TnNHClw+rP0eQ+queOSoU1Ep5+HkvCe9CbYOE9YTS4Ehq9hKt5Rb7RoQWJbxoMLMBjGBJxjVKi5yJGVoyby0i9k3IN3nlxmpi7LdrNdC/TiMEjcKEL701hPh+ewBtpP8HVO/zBFEaL0klaeonC5QgDsewCu61qIDwpF2ngNWLBSjWYYyt7YJtSURj74U5LcjlEd36DTVgmjKNwGeSyocK6qqJJMIVzinZDcAtpDM3fETOFzSVn9yyOrkKj2zLJoubGzEAUUbGsrxHrP+iiL/la0L9TWV9VhZihCRkRVpmBjr3FvC3N3xWRSh1rKZ3VM4Uue1GalCBBMZ5I8D23mh9ULSyfvgcyYPjQRf8sSJNoPbOOrazY2dzIbuSSuJHGR4pQHE2aNGnSpMk+4j+JHkkSqNcLZgAAAABJRU5ErkJggg=="
+                alt="Design surveys"
+                class="product-item-img"
+              />
+              <h3 class="product-item-title">Design surveys</h3>
+              <p class="product-item-descr">
+                Sports betting, lottery and bingo playing for the fun
+              </p>
+            </li>
+            <li class="product-item">
+              <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADYAAAA+CAYAAABgFuiwAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAP4SURBVHgB7ZpBaBNZGMf/35u2JJVlx9viZWP3uMuaZVmw3XVND7u4sLvUmyLYehQPBmpS8NJ6ULCxGg+i3ioo9ObFkwqmlFrBSltBr6YXwZPjwaa0yXu+b9pKYifpJL7EZMwPSmbmvTd9/3nf+/JNvo9QA8OhkZgguQ+gmD6NSoJNgA0DKMDR98qSQlafZZDHdGo9tYgqIb8d43bc7ljrOq3/4ZAiRNBAtNisRRijAk1fXL2Y9TPGl7Az3clRffO4qVWpFRao5zB5aWX83E59KwobCY1ECkLd1YdRNBEssENSf6XVE+UahnclB/NCLaDJRDF6NfiBLyS7kwPl+lheF1mU3kuT+gYhNC8hvXJHert+z86tzy592rhNWPIb/RQkptAi6Ic/4CWuZI/xnmLz+9JOogYcS9IvxXuuZI/lST1qQVGMvenkPvLRFNmlE2EArct3vZ19NLf+OMMnrim6Jsir1eAv3jrg5LvW9qadtOOaorRkLACiGNta64zzwYYwSaMICAI0yJ+U2JWIKkULCBBKFvpFQaoYAgaRFRVE4iACh9KvVVARBAwi2icUKIKAoWNIW7RopLETtkBA6UAd+OFAD3r0X9gO4/Xz15i//ayk/ad/f0TPnz3IOTm3/cW9lzCNUWEhO4ShqUFXWDF/n/0L1/+56R4PTR3Hnp/3lLSzuBuHbiL3bhWmIB38Khji//H/cODUH55tuXc5kP4ViMV7cf/CQzw4/wCmMLrH2MTKEf42XFYU89uxX2ESo8J2f78btfI5Y70wKuzt8lvUyueM9cKosPnb86iVp3eewSRGhc1cm63pyfOYmWszMIlRYez52K1XI4778phVx5yrZ4xHHlsT9SOumr7VUpeQys+E6ymKqVusWGni9RbF1DUI9hLQCFFM3aP7YiGNEsUYjRV3gkMq096vHA19H2uUKEZwzhfBwxFaWRCFZYXO+FedkW96lFoWSslpBA7KCFIqcCtGeZVx00iJcPKVCka2xa0omFgZ37uRbSF1C0GBMMYfrrBC13o6CG6fV6tQINdnuMI4A6gvX0XLo26lNxPsJVUDZ7oTOk9GTVew4oetvbV1Xlo1IMXhVjRJnnNBUn/xtZIClif5WafX6nuj0zCtVj1w9Epu/EnxhW2VOXP5x4v7rb7lVhGnPfqJyyupbZVEnrVULK63c/+SttRDzVpPxeanSJ28/D416dVesawvHhqJWM1Z/7GYl3Q4XaGsz1ch5nB3YgyKBr+0wA3Hpq5OrKTGdurrv3RWr54AF7rQaKMFcn0wR0ccSGx85/oYgxpIdCaisgMHBSim7TzCeWyTxc6b74iLkoudlVyaWJ3IoE2bNm3atPmK+AB17KTtgt9PfwAAAABJRU5ErkJggg=="
+                alt="Preference tests"
+                class="product-item-img"
+              />
+              <h3 class="product-item-title">Preference tests</h3>
+              <p class="product-item-descr">
+                The Myspace page defines the individual.
+              </p>
+            </li>
+            <li class="product-item">
+              <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADYAAAA2CAYAAACMRWrdAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAP0SURBVHgB3Zq9cxJBGMafXQh+RYUududMrMXWASSd6bTQVmPvV2fUGWOhsfTjDzCWMc5ol3RegHHswDqZ8axMBzpqzCW3674bcCASODK7kbvfzOW4473JPrwfu7Avwx6oF3NFLnBaSlYEQ1bdSjcPEzQA5kFKjzHpCi6WM+6HGgaEhTWsF4tpLsRNCXlVXTrYXzwONhP4/nLm40cvzAOhhH0rFB4oQbdgzit7xWNgc8dLpYf9DHsKU15ymBBvAZnFcOFJf3Oil/f4bm98LxSuMBFUh1AU4bDUSLWez1/YzaCrx0iUgJxDBFC5d/VYqfRq5/1/hNWL+QtM4C0iRDdxHcK2c4rC778XiUFpqJw7055zHTmmRL1H9EQRaZZKdUTZX2FU0rH/85NBZLZeyM20rnQoNkOQvOUg2jQkT5zMuG5j22NBUET0RRFpiC1aSGyHImN4gJigViZX9Ll+9myWJRNVxAgp5ARHQq3Q4waTWc7AzyFuMF5Uk7Z0EDNUqT+tigdzED/SVBWjuNLoRzoJwxx+9AhsdHSgZ7aqNWzMvYRJjAvbKpdx8PoN+AsLEGtfe9qOnJ/UZ7G6AtMYF+YvLSF16TKCtTVsqtc9/3k+j2BlFZuVCkzDYYFgZQWJ8fG+dnzsBAIL3iKMe4wIajUVjtex8WZhVxvKQxIvVldhAyvCNitlLezY/Ouedv7iosrDNdjASijKHz+wPvu4pw0JMl0J27EijKCCsPGy+8BJ+K97d615i7AmjPCXFrUIOkhESwjdDyzlVgsrOUZQcTjy7LmafKtYfzKrxRF8bEzfJ36/eAFbWPMYFQ8dcvfv/RVFkNd+3ryBlJqcR3I52MKKMPIKDZzyqBu6cKiVyYGpa7CFlVBM5vLaS4emp3e1ac1jyWwWW7WBd4n6jwEWGMnn9MCT2TN9bfn4KcCCMCuhyEaPhralsLWBcWFH5+dDrRNbpCYncejONExjPBTXZ2cxKO1V0xQkTO35mvsWbaMQ7AH9S3ADsYOpPWuJofiITaL2y79wCbGMuCGFqzzGYucxJKSrt5EahfxnxGO3hfDSpfJJPY+pmHyFmECNLttn/Tf5FPGojh5179ALLYx2AJXXniHiUOS1Ntg7ugYahcKwNqyEQedW66JjrSg5v4hohiS1Q0y03+gQpkLSkxK3ETEkx9TOvqp/VveZcnlOiZtCRKCxZtzyu533u35taYob9rBsaFFqrN3eDNHWN4z9H6wmff9ir7a+UI2Y1PHSbDNw8H/R01KmVJnpZzhI66xDjS7NnhAH+4unV0dqIUFzbpgHQgtrh3pDeJKfUzFOzc5Ocx/bYLOzOqSsqQ/RFQKfMpWKiwH5A6foj8FJun8hAAAAAElFTkSuQmCC"
+                alt="Five second tests"
+                class="product-item-img"
+              />
+              <h3 class="product-item-title">Five second tests</h3>
+              <p class="product-item-descr">
+                Personal choices and the overall personality of the person.
+              </p>
+            </li>
+          </ul>
+          <button class="product-btn">SIGN UP NOW</button>
+
+          <ul class="product-advantages-list">
+            <li class="product-advantages-item">
+              <div class="product-advantages-item-wrapper">
+                <h3 class="advantages-item-title">
+                  <span class="advantages-item-title-style"
+                    >Effortless Validation for</span
+                  ><br />
+                  Management
+                </h3>
+                <p class="advantages-item-descr">
+                  The Myspace page defines the individual, his or her
+                  characteristics, traits, personal choices and the overall
+                  personality of the person.
+                </p>
+                <h4 class="advantages-item-subtitle">Accessory makers</h4>
+                <p class="advantages-item-text advantages-item-text-first">
+                  While most people enjoy casino gambling, sports betting,
+                  lottery and bingo playing for the fun
+                </p>
+                <h4 class="advantages-item-subtitle">Alterationists</h4>
+                <p class="advantages-item-text">
+                  If you are looking for a new way to promote your business that
+                  won’t cost you more money.
+                </p>
+              </div>
+              <img src="/business-promotion/assets/management-img-C9rGCpn_.jpg" alt="Management" />
+            </li>
+
+            <li class="product-advantages-item">
+              <div class="product-advantages-item-wrapper">
+                <h3 class="advantages-item-title">
+                  <span class="advantages-item-title-style"
+                    >Easier decision making for</span
+                  ><br />
+                  Customer Support
+                </h3>
+                <p class="advantages-item-descr">
+                  The Myspace page defines the individual, his or her
+                  characteristics, traits, personal choices and the overall
+                  personality of the person.
+                </p>
+                <ul class="support-list">
+                  <li class="support-list-item">
+                    <img
+                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAjCAYAAAD8BaggAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJSSURBVHgBzZg/TtxAFMa/MatoS+o0cW4QaQ9AuAEpUwWqKEqR5ATACQIFQvyRgBMAEhUN7AEQ21JhGqiQLNGABB6+N8PAajG7M/J4zSftevzn2T/PzHvPbxQ8pFfxFQozSDAFjZSHJj3Mctpk3PZos69+Ys/DhiZvQWzxoff4gwJ/PQFGKeMLbaOFZTVH2BAgvYIvNNxlM0V8ZXzJOfULx2Unk8EDehM/CHNaEwzMfRMc6Q3MYxSQXucQPbBbx6ECC2VQz0PGiSvk5xi3Ckz3D99LD7Eb0YQSbBkHet6F6Z1Z1DdnRinFrfFkIzNkes0MVYrmlOMDPks4SAgz0zCMaJK9JBwcssI2GtcEswAEaAKf8B6kmZ4gQJpRuU51GGq+e0WTFLBeFiNPvQ3TWQAuu16Xi/snqEsO5mwH6M762dzWBeRgro79YZ4UH8jBXPeAw28IVVygfpiDaeAuD76FP5B4SmcedcKEAYmnyAPLoCLBiFreV7rJKQ8WnSxGhwkDKoNy7UgwaCMXILmLf3AchLrJrDdVhaEk2wtQxl9Y+nBQH6dszwhUdfXkr8Vc1uVXUXg+Cwx4I6VxIRtJrl4FXO1SpuxC8vSBXX0CVFPGL8Z9adg4VGAZTarAjqtmLVAbS7CTuwll/G27HQNk6O4RngljyJbVGfqBROo33Y4nMU4VWBys8V8tNrAKkRrpP+rXPy7RLA0eLF/9sGW1VLIp4mvo6ocaZmkq2sQsCKSortx4Mx0oeH3oFZgUk1K/KZZMNqr7raBJb0gmkODbRm8YiNMjh6nBFijXe7IAAAAASUVORK5CYII="
+                      width="35"
+                      alt="Support image"
+                      class="support-item-image"
+                    />
+                    <p class="support-item-descr">
+                      Never worry about overpaying for your energy again.
+                    </p>
+                  </li>
+                  <li class="support-list-item">
+                    <img
+                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAjCAYAAAD8BaggAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJySURBVHgBzZhPbtpAFId/M1gqqlQJThAfgW7TQugNuEHjCxS6bRdpV3TX5ATQZbtpssoyREmzxQeIVHeXHW6VojTFM3nPYIKIgbGwcb6Fx5gZzaf5/0bAgEH9ZR1KNgSwA2ibPpUMivmA8ITWrirgqNw7OzQoA4GFEvWSVKqpoVuGAqvwBERXSXlQ7vV8JBEabG9XhFX4Tq820sfTSjvl8/Ne3J9y/sOfWu01yfQzkmFsIcXJ71ptD6uEKFNTQXexAWgofIiTmnYZjRlbqOAnNgx136vZ7pu2EMmcIAeo+zo8gTArNKhWd5HdmFmFDTVqYVZICOwhR2g5aEatJKl1GsivdSJKCG4boRDpNfAIkCjshKnQ2MIjQAvUOeUWqiBDnjgOnn39ZpLVBsaDOo19aqFMcddB0O8b5Q/3T2REJPP/+BjDT22zQjc32QhFMiPXNZeZkLrQtJsuLzF8/w5JSVVoVuZv8w309TWSYizEM4UrzFImkVDg9sMK46TSkmEs04zDdhtPKeWKmX+dTuoyiYTipDB5T0sGxaLPQnzgNl4c56XU1VU4m9aWIfjwT0LaowNAou0jkipUnoctw1LrI1x+Who4pXNs4v2MpdKEzti/OJVQMArgsqYAwWEX5OSA7SNfvEDKI34J1yFqrgPkCNX/JYpmxwujtPbp6SEfPNyOutGP+7hsHD6bHVxSZGFcVr64cLWGgw1CXfVxPsZ/cNkwqL5oCSE/I2sZrd6Wz37sz3+Pv/0Yh9UcydpIn6W3H2JZSY5oJ0GkjfXxw9lMEyjx/VCMWIPjN7oN26Iwl1d1wxs07WnIUyh1CMtyl4lE3AFplhX6Q1gewAAAAABJRU5ErkJggg=="
+                      width="35"
+                      alt="Support image"
+                      class="support-item-image"
+                    />
+                    <p class="support-item-descr">
+                      We will only switch you to energy companies that we trust
+                      and will treat you right
+                    </p>
+                  </li>
+                  <li class="support-list-item">
+                    <img
+                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAjCAYAAAD8BaggAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJhSURBVHgBzZg9T9wwGMf/djN0aXUfoBL+ApVYO3HdaZWOnVokdopUOrQD7dKlL3BzK5VODAwcCAYGBEyMnASsEMR2U0BCAglinifERxTuxeHiCz8pL8o555/sPLYfC1gw+kNXIeBDYkRoKHpUsXgt1AIBlW9ojaWVj6Ju8Q5V0wF/RlcijQn6sw+WAr0IhMDcqUBtc1KEyCNEMsNXERbpVqF4Ah1hbGVKbLb7UWYfvP6t35HMjiMZRgmJDapnGr2EqBB30RwGANXztZ1Uq8uomxS1zCEGDHXfy3T3tVqIZDZQAtR9/6oUQEgLvfql38PdN9ML9fQyjmS0hIhplIiWmDCtJEd/ah/ltY6h8iSCHwvR4eNhMMInSXE2hIdBlU+S4n4YDnn7Avg7blVU8Ym7rIh5qqMMH7vHduX5w5ZwhJFZ3wdqa3bvVM7hRijdMrYyhsKFjMxBE/i+jNwUKpSW+bIAnF0gN9ZCf8ZvKnMpk0to7/i2UlcyjGdb0HycRmh+u3iZXELtpMx9UTLhY4QsxAtu68ExK9U8uYmmfmUYXvx7tJTkbCDX9GGknj8DPlPLNE/RN+TR4Cu30BbuMZ/lHfB6QXPqEV8lNKwSONfQUpbTLshkgR2iXAJKIJf4Jh6HaOVfQ4mICP9NNhsLeR5m6RKgHALp3eaCsVCd7B5d4Q1KgNNqqj9AWiiW+iQ47MYwQKirvmVz/DubDZSjcY40A8dEESZXp8Rs9nmn3Q+VZLIKxdN190N0ezPJaDmJVOifkKOZA6ied38oS5JM8jGUTDN2O2g6jtwtHnxJpNFNxHANWTjpF8cZg88AAAAASUVORK5CYII="
+                      width="35"
+                      alt="Support image"
+                      class="support-item-image"
+                    />
+                    <p class="support-item-descr">
+                      We track the markets daily and know where the savings are.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+              <img src="/business-promotion/assets/support-img-Cd7DFxXm.jpg" alt="Support" />
+            </li>
+
+            <li class="product-advantages-item">
+              <div class="product-advantages-item-wrapper">
+                <h3 class="advantages-item-title">
+                  <span class="advantages-item-title-style"
+                    >Optimisation for</span
+                  ><br />
+                  Collaborative
+                </h3>
+                <p class="advantages-item-descr">
+                  Few would argue that, despite the advancements of feminism
+                  over the past three decades, women still face a double
+                  standard when it comes to their behavior.
+                </p>
+                <h4 class="advantages-item-subtitle">Accessory makers</h4>
+                <p class="advantages-item-text advantages-item-text-first">
+                  While most people enjoy casino gambling, sports betting,
+                  lottery and bingo playing for the fun
+                </p>
+                <h4 class="advantages-item-subtitle">Alterationists</h4>
+                <p class="advantages-item-text">
+                  If you are looking for a new way to promote your business that
+                  won’t cost you more money.
+                </p>
+              </div>
+              <img src="/business-promotion/assets/collaboration-img-B8SJhXhZ.jpg" alt="Collaborative" />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="process-section">
+  <div class="container process-container">
+    <h2 class="process-title">Quick & Easy Process</h2>
+    <p class="process-descr">
+      Do you require some help for your project: Conception workshop,
+      prototyping, marketing strategy, landing page, Ux/UI?
     </p>
+    <ul class="process-list">
+      <li class="process-list-item">
+        <img
+          src="/business-promotion/assets/avatar-1-BemS4HyV.jpg"
+          width="98"
+          alt="Avatar image"
+          class="process-item-image"
+        />
+        <p class="process-item-text">I can take care of your pitch</p>
+      </li>
+      <li class="process-list-item">
+        <img
+          src="/business-promotion/assets/avatar-2-C7d2EMzJ.jpg"
+          width="98"
+          alt="Avatar image"
+          class="process-item-image"
+        />
+        <p class="process-item-text">I can prototype your app</p>
+      </li>
+      <li class="process-list-item">
+        <img
+          src="/business-promotion/assets/avatar-3-DTPhFoH7.jpg"
+          width="98"
+          alt="Avatar image"
+          class="process-item-image"
+        />
+        <p class="process-item-text">I can take care of your pitch</p>
+      </li>
+      <li class="process-list-item">
+        <img
+          src="/business-promotion/assets/avatar-4-CKjpcsYX.jpg"
+          width="98"
+          alt="Avatar image"
+          class="process-item-image"
+        />
+        <p class="process-item-text">I can help marketing strategy</p>
+      </li>
+    </ul>
+    <button class="support-btn">Contact our expert</button>
+  </div>
+</section>
+
+
+      <section class="section strategies-section">
+  <div class="container">
+    <h2 class="strategies-title">Contents Strategies</h2>
+    <p class="strategies-descr">
+      We focus on ergonomics and meeting you where you work. It's only a
+      keystroke away.
+    </p>
+    <ul class="strategies-list">
+      <li class="strategies-item">
+        <img
+          src="/business-promotion/assets/strategies-img-1-lFVBGVjY.jpg"
+          alt=""
+          width="350"
+          height="185"
+          class="strategies-img"
+        />
+        <div class="strategies-item-content-wrapper">
+          <p class="strategies-item-descr">
+            By <span class="strategies-item-autor">Wahid Ari</span> |
+            <span class="strategies-item-date"> 03 March 2019</span>
+          </p>
+          <h3 class="strategies-item-title">
+            Increasing Prosperity With Positive Thinking
+          </h3>
+        </div>
+      </li>
+      <li class="strategies-item">
+        <img
+          src="/business-promotion/assets/strategies-image-2--xpdWGJh.jpg"
+          alt=""
+          class="strategies-img"
+        />
+        <div class="strategies-item-content-wrapper">
+          <p class="strategies-item-descr">
+            By <span class="strategies-item-autor">Wahid Ari</span> |
+            <span class="strategies-item-date"> 03 March 2019</span>
+          </p>
+          <h3 class="strategies-item-title">
+            Motivation Is The First Step To Success
+          </h3>
+        </div>
+      </li>
+      <li class="strategies-item">
+        <img
+          src="/business-promotion/assets/strategies-image-3-DxGmca09.jpg"
+          alt=""
+          class="strategies-img"
+        />
+        <div class="strategies-item-content-wrapper">
+          <p class="strategies-item-descr">
+            By <span class="strategies-item-autor">Wahid Ari</span> |
+            <span class="strategies-item-date"> 03 March 2019</span>
+          </p>
+          <h3 class="strategies-item-title">
+            Success Steps For Your Personal Or Business
+          </h3>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+
+      <section class="section price-section">
+  <div class="container">
+    <h2 class="price-title">Price Table</h2>
+    <p class="price-descr">We offer competitive price</p>
+    <ul class="price-list">
+      <li class="price-list-item">
+        <h3 class="price-item-title">Free</h3>
+        <p class="price-item-descr">Brief price description</p>
+        <div class="price-item-number-wrapper">
+          <p class="price-item-number">0</p>
+          <div class="price-item-icon-wrapper">
+            <p class="price-item-icon">$</p>
+            <p class="price-item-text">Per / month</p>
+          </div>
+        </div>
+        <ul class="price-item-info-list">
+          <li class="price-info-list-item">Only 2 Operators</li>
+          <li class="price-info-list-item">Notifications</li>
+          <li class="price-info-list-item">Landing Pages</li>
+        </ul>
+        <button class="price-item-btn" type="button">Order Now</button>
+      </li>
+      <li class="price-list-item">
+        <h3 class="price-item-title">Standard</h3>
+        <p class="price-item-descr">Brief price description</p>
+        <div class="price-item-number-wrapper">
+          <p class="price-item-number">5</p>
+          <div class="price-item-icon-wrapper">
+            <p class="price-item-icon">$</p>
+            <p class="price-item-text">Per / month</p>
+          </div>
+        </div>
+        <ul class="price-item-info-list">
+          <li class="price-info-list-item">5+ Operators</li>
+          <li class="price-info-list-item">Notifications</li>
+          <li class="price-info-list-item">Landing Pages</li>
+        </ul>
+        <button class="price-item-btn" type="button">Order Now</button>
+      </li>
+      <li class="price-list-item">
+        <h3 class="price-item-title">Premium</h3>
+        <p class="price-item-descr">Brief price description</p>
+        <div class="price-item-number-wrapper">
+          <p class="price-item-number">10</p>
+          <div class="price-item-icon-wrapper">
+            <p class="price-item-icon">$</p>
+            <p class="price-item-text">Per / month</p>
+          </div>
+        </div>
+        <ul class="price-item-info-list">
+          <li class="price-info-list-item">10+ Operators</li>
+          <li class="price-info-list-item">Notifications</li>
+          <li class="price-info-list-item">Landing Pages</li>
+        </ul>
+        <button class="price-item-btn" type="button">Order Now</button>
+      </li>
+    </ul>
+  </div>
+</section>
+
+
+      <section class="section client-section">
+  <div class="container">
+    <h2 class="clients-title">What Clients Say</h2>
+    <p class="clients-subtitle">
+      Problems trying to resolve the conflict between the two major realms of
+      Classical physics: Newtonian mechanics
+    </p>
+    <ul class="clients-list">
+      <li class="clients-list-item">
+        <svg class="clients-item-icon" width="106" height="18">
+          <use href="/business-promotion/assets/symbol-WbLO6HzW.svg#icon-stars"></use>
+        </svg>
+        <p class="clients-item-text">
+          Product helps you see how many more days you need to work to reach
+          your financial goal.
+        </p>
+        <div class="clients-user-content">
+          <img
+            src="/business-promotion/assets/Ellipse-1-Dlyi_maP.png"
+            width="50px"
+            height="50px"
+            alt="Wahid Ari"
+          />
+          <div>
+            <h3 class="client-card-title">Wahid Ari</h3>
+            <p class="client-card-text">Designer</p>
+          </div>
+        </div>
+      </li>
+      <li class="clients-list-item">
+        <svg class="clients-item-icon" width="106" height="18">
+          <use href="/business-promotion/assets/symbol-WbLO6HzW.svg#icon-stars"></use>
+        </svg>
+        <p class="clients-item-text">
+          Product helps you see how many more days you need to work to reach
+          your financial goal.
+        </p>
+
+        <div class="clients-user-content">
+          <img
+            src="/business-promotion/assets/Ellipse-2-WQ1VDgDx.png"
+            width="50px"
+            height="50px"
+            alt="Wahid Ari"
+          />
+          <div>
+            <h3 class="client-card-title">Wahid Ari</h3>
+            <p class="client-card-text">Designer</p>
+          </div>
+        </div>
+      </li>
+      <li class="clients-list-item">
+        <svg class="clients-item-icon" width="106" height="18">
+          <use href="/business-promotion/assets/symbol-WbLO6HzW.svg#icon-stars"></use>
+        </svg>
+        <p class="clients-item-text">
+          Product helps you see how many more days you need to work to reach
+          your financial goal.
+        </p>
+        <div class="clients-user-content">
+          <img
+            src="/business-promotion/assets/Ellipse-3-DAxS3bCN.png"
+            width="50px"
+            height="50px"
+            alt="Wahid Ari"
+          />
+          <div>
+            <h3 class="client-card-title">Wahid Ari</h3>
+            <p class="client-card-text">Designer</p>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+
+      <section class="section join-section">
+  <div class="container join-container">
+    <div class="join-content">
+      <h2 class="join-title">
+        Join 100 Compannies who boost their business with Product
+      </h2>
+      <button type="button" class="join-btn">Get This</button>
+    </div>
+    <div class="join-img-container">
+      <img src="/business-promotion/assets/join-DAN6QRJT.png" alt="Join image" class="join-img" />
+    </div>
+  </div>
+</section>
+
+
+      <!-- footer -->
+      <footer class="section footer-section">
+  <div class="container footer-container">
+    <div class="footer-logo-wrapper">
+      <a href="./index.html" class="footer-logo-link">
+        <img src="data:image/svg+xml,%3csvg%20width='40'%20height='36'%20viewBox='0%200%2040%2036'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M3.13307%2034.1139C1.40988%2034.1139%201.59211e-07%2032.7182%201.47613e-07%2031.0122L7.38884e-08%2020.1682L7.88631%2020.1682L7.88631%2020.1562L12.6263%2020.1562C13.8482%2020.1251%2014.8821%2019.0706%2014.8821%2017.8299C14.8821%2016.5582%2013.8168%2015.5036%2012.5323%2015.5036L6.26614%2015.5036L6.26614%2015.5055L4.21887e-08%2015.5055L2.10878e-08%2012.4018C9.48962e-09%2010.6959%201.40988%209.30012%203.13307%209.30012L12.5323%209.30012C14.9134%209.30012%2016.9499%2010.1376%2018.6104%2011.8125C20.3023%2013.4564%2021.1482%2015.4726%2021.1482%2017.8299C21.1482%2020.1562%2020.3336%2022.1723%2018.6731%2023.8162C17.0126%2025.4601%2015.0074%2026.3286%2012.6576%2026.3596L6.26614%2026.3596L6.26614%2031.0122C6.26614%2032.7182%204.85626%2034.1139%203.13307%2034.1139Z'%20fill='%2302BC6B'/%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M25.0975%205.7002C28.5589%209.0287%2030.3031%2013.1742%2030.3031%2017.8865C30.3031%2022.5197%2028.6319%2026.6613%2025.2239%2030.0002L20.3852%2025.4931C22.5047%2023.4166%2023.545%2020.9166%2023.545%2017.8865C23.545%2014.8333%2022.4734%2012.3372%2020.3031%2010.2502L25.0975%205.7002Z'%20fill='%2302897A'/%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M32.5055%20-3.14562e-08C37.4911%204.92801%2039.9999%2011.0384%2039.9999%2018.0514C39.9999%2024.9549%2037.5922%2031.0614%2032.6884%2036L28.0186%2031.4828C31.6715%2027.8041%2033.4614%2023.3422%2033.4614%2018.0514C33.4614%2012.7074%2031.6111%208.24939%2027.8787%204.56008L32.5055%20-3.14562e-08Z'%20fill='%23035B81'/%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M0%2026.3857L6.26614%2026.3857L6.26614%2031.0126C6.26614%2032.7186%204.85626%2034.1143%203.13307%2034.1143C1.40988%2034.1143%204.30547e-08%2032.7186%203.14565e-08%2031.0126L0%2026.3857Z'%20fill='%23028E37'/%3e%3c/svg%3e" width="40" height="36" alt="Logotype" />
+        Product
+      </a>
+      <ul class="social-list">
+        <li class="social-list-item">
+          <a
+            href=""
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+            aria-label="instagram"
+            class="social-list-link"
+          >
+            <svg class="social-list-icon" width="20" height="20">
+              <use href="/business-promotion/assets/symbol-WbLO6HzW.svg#icon-instagram"></use></svg
+          ></a>
+        </li>
+        <li class="social-list-item">
+          <a
+            href=""
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+            aria-label="facebook"
+            class="social-list-link"
+          >
+            <svg class="social-list-icon" width="20" height="20">
+              <use href="/business-promotion/assets/symbol-WbLO6HzW.svg#icon-facebook"></use></svg
+          ></a>
+        </li>
+        <li class="social-list-item">
+          <a
+            href=""
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+            aria-label="twitter"
+            class="social-list-link"
+          >
+            <svg class="social-list-icon" width="20" height="20">
+              <use href="/business-promotion/assets/symbol-WbLO6HzW.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <nav class="footer-nav">
+      <div>
+        <p class="footer-title">Resource</p>
+        <ul class="footer-nav-list">
+          <li class="footer-nav-link">
+            <a href="" class="footer-nav-link">About Us</a>
+          </li>
+          <li class="footer-nav-item">
+            <a href="" class="footer-nav-link">Blog</a>
+          </li>
+          <li class="footer-nav-item">
+            <a href="" class="footer-nav-link">Contact</a>
+          </li>
+          <li class="footer-nav-item">
+            <a href="" class="footer-nav-link">FAQ</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer-title">Legal Stuff</p>
+        <ul class="footer-nav-list">
+          <li class="footer-nav-item">
+            <a href="" class="footer-nav-link">Disclaimer</a>
+          </li>
+          <li class="footer-nav-item">
+            <a href="" class="footer-nav-link">Financing</a>
+          </li>
+          <li class="footer-nav-item">
+            <a href="" class="footer-nav-link">Privacy Policy</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="footer-form-wrap">
+      <p class="footer-title footer-form-title">
+        knowing you're always on the best energy deal.
+      </p>
+      <form class="footer-form">
+        <label class="footer-form-label">
+          <input
+            class="footer-form-input"
+            type="tel"
+            name="user-tel"
+            placeholder="Enter your phone number"
+          />
+          <svg class="footer-form-icon" width="18" height="28">
+            <use href="/business-promotion/assets/symbol-WbLO6HzW.svg#icon-mobile"></use>
+          </svg>
+        </label>
+        <button type="submit" class="footer-form-btn">Sign up Now</button>
+      </form>
+    </div>
+    <p class="footer-copy">Made With Love By Figmaland All Right Reserved</p>
   </div>
 </footer>
 
-
+    </main>
   </body>
 </html>

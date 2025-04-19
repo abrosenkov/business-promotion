@@ -1,0 +1,123 @@
+.price-title {
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+
+.price-descr {
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.price-list {
+    display: flex;
+    justify-content: center;
+    gap: 72px;
+    text-align: center;
+}
+
+.price-list-item {
+    font-family: "Montserrat", sans-serif;
+    width: calc((100% - 144px) / 3);
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+    background: #fff;
+    border-radius: 8px;
+    padding: 32px;
+    transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
+}
+
+.price-item-title {
+    font-size: 24px;
+    line-height: 1.67;
+    margin-bottom: 16px;
+}
+
+.price-item-descr {
+    font-size: 16px;
+    line-height: 2.5;
+    margin-bottom: 16px;
+    font-weight: 400;
+}
+
+.price-item-number-wrapper {
+    display: flex;
+    gap: 7px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.price-item-number {
+    font-weight: 700;
+    font-size: 76px;
+    line-height: 1.32;
+    letter-spacing: 0em;
+    color: #02897a;
+    transition: color 250ms ease-in-out;
+}
+
+.price-item-icon {
+    text-align: left;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.25;
+    letter-spacing: 0em;
+    color: #02897a;
+    margin-bottom: 4px;
+    transition: color 250ms ease-in-out;
+}
+
+.price-item-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.01em;
+    color: #afafaf;
+    transition: color 250ms ease-in-out;
+}
+
+.price-item-info-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    ;
+    line-height: 1.37;
+    letter-spacing: 0.01em;
+}
+
+.price-item-btn {
+    width: 139px;
+    height: 44px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 8px;
+    background: #02897a;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
+}
+
+.price-list-item:hover {
+    background-color: #02897a;
+    color: #fff;
+}
+
+.price-list-item:hover .price-item-number,
+.price-list-item:hover .price-item-icon {
+    color: #fff;
+}
+
+.price-list-item:hover .price-item-text {
+    color: #e0e0e0;
+}
+
+.price-list-item:hover .price-item-btn {
+    background: #fff;
+    color: #02897a;
+}

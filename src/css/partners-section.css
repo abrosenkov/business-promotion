@@ -1,4 +1,7 @@
-
+.partners-section {
+    display: block;
+    padding: 108px 0;
+}
 
 .partners-container {
     max-width: 850px;
@@ -14,8 +17,4 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.section.partners-section {
-    padding: 108px 0;
 }

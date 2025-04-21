@@ -32,4 +32,11 @@
     font-weight: 600;
     font-size: 18px;
     color: #fff;
+    transition: border-color 250ms ease-in-out, background-color 250ms ease-in-out, color 250ms ease-in-out;
+}
+
+.enterprise-btn:hover {
+    background-color: #fff;
+    color: #02897a;
+    border-color: #02897a;
 }

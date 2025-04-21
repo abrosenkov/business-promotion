@@ -1,0 +1,35 @@
+.enterprise-section {
+    background: linear-gradient(180deg, #f6f6f6 0%, rgba(246, 246, 246, 0) 100%);
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.enterprise-subtitle {
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.enterprice-title {
+    font-size: 34px;
+    margin-bottom: 8px;
+}
+
+.enterprise-descr {
+    font-size: 18px;
+    margin-bottom: 32px;
+}
+
+.enterprise-btn {
+    display: block;
+    width: 224px;
+    height: 44px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 8px;
+    background: #02897a;
+    border: 1px solid transparent;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+}
